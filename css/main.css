@@ -1,0 +1,45 @@
+html {
+  float: left;
+  width: 100%;
+  background-color: grey;
+  box-sizing: border-box;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.f {
+  width: 100%;
+  position: absolute;
+}
+
+img .f {
+  position: absolute;
+  width: 100%;
+}
+
+img .e {
+  position: relative;
+}
+
+h2 {
+position: relative;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  background-color: #484848;
+}
+
+li {
+  list-style-type: none;
+}
